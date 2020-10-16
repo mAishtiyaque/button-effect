@@ -1,0 +1,51 @@
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background: url(bird.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/* css of header*/
+li a{
+    font-weight: 600;
+}
+.logo{
+    letter-spacing: 1.8px;
+    font-weight: 700;
+}
+.me{
+    background-color: #004d80;
+}
+.navbar-toggler {
+    border-color: white;}
+.navbar-dark .navbar-nav .nav-link{
+        color: white;
+    }
+.text-center{
+    line-height: 1.3rem;
+}
+.container .bd{
+    margin-bottom: 8px;
+}
+#topHeader{
+    border-bottom: 1px solid #ebebeb;
+  }
+  #topHeader a{
+    color: #2ef1f1;
+    font-weight: 600;
+    font-size: 0.89rem;
+  }
+/*button csss*/
+.mycss{
+    border-radius: 25%;
+  
+}
+.mycss:hover{
+    border:2px solid #5b5ba1;
+}
+.mycss:focus{
+    background-color: #aa6b6b;
+    outline:none;
+}
